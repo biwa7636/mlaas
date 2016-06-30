@@ -1,0 +1,6 @@
+library(e1071)
+library(pmml)
+data("iris")
+model <- svm(data=iris, Species ~ .)
+p <- pmml(model)
+saveXML(p, "iris.xml")
