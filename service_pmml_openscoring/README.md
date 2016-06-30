@@ -4,7 +4,8 @@
 git clone https://github.com/jpmml/openscoring.git
 cd openscoring
 mvn clean install 
-java -jar openscoring-server/target/server-executable-1.2-SNAPSHOT.jar```
+java -jar openscoring-server/target/server-executable-1.2-SNAPSHOT.jar
+```
 
 2. deploy the model and query
 
